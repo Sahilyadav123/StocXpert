@@ -8,7 +8,6 @@ function AboutPage() {
         <Hero />
         <Team />
         </>
-        // <h1>About page</h1>
      );
 }
 
