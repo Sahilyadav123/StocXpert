@@ -7,7 +7,7 @@ import HomePage from './landing_page/home/HomePage';
 import Pricing from './landing_page/pricing/PricingPage';
 import Signup from './landing_page/signup/Signup';
 import AboutPage from './landing_page/about/AboutPage';
-import ProductPage from './landing_page/products/Hero';
+import ProductPage from './landing_page/products/Productpage';
 import SupportPage from './landing_page/support/SupportPage';
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
@@ -31,4 +31,6 @@ root.render(
     </BrowserRouter>
   
 );
+
+
 

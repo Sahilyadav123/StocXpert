@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         //    <div className='container bg-white'>
-        <nav class="navbar navbar-expand-lg navbar-light bg-body bg-white border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body bg-white border-bottom ">
             {/* <!-- Container wrapper --> */}
-            <div class="container-fluid d-flex space-between">
+            <div class="container-fluid d-flex space-between ">
                 {/* <!-- Toggle button --> * /}
            <button
              data-mdb-collapse-init
@@ -48,11 +48,7 @@ function Navbar() {
                         <li class="nav-item me-3 ">
                             <Link class="nav-link active text-muted" to="/support">Support</Link>
                         </li>
-                        <li class='nav-item me-3 mt-2 ms-2'>
-                            <Link href=''><i class="fa fa-bars" aria-hidden="true">
-                            </i>
-                            </Link>
-                        </li>
+                        
 
                     </ul>
                 </div>
